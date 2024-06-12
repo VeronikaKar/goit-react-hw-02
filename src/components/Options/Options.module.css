@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+.item {
+  border: none;
+}
+.btn {
+  background-color: plum;
+  color: azure;
+}

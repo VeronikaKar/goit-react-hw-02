@@ -1,0 +1,18 @@
+.title__description {
+  text-align: center;
+  font-size: 122px;
+  color: crimson;
+}
+
+.header__description {
+  color: violet;
+}
+
+.text__description {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  width: 600px;
+  margin-bottom: 72px;
+}
