@@ -1,0 +1,9 @@
+.friend__list {
+  display: flex;
+  gap: 20px;
+  padding: 0px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}

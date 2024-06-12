@@ -1,0 +1,71 @@
+.user__card {
+  margin: 0 auto;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  background-color: azure;
+}
+
+.user__cardBody {
+  padding: 20px;
+}
+
+.avatar {
+  width: 200px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.user__name {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #808080;
+}
+
+.user__tag {
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+}
+
+.user__location {
+  color: #808080;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.user__cardStats {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.user__cardStats > li {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  width: calc(100% / 3);
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid gray;
+  font-size: 30px;
+  overflow: hidden;
+}
+.user__cardStats > li:nth-child(2) {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+.stat__name {
+  font-weight: 550;
+}
+
+.stat__counter {
+  font-weight: 550;
+}
